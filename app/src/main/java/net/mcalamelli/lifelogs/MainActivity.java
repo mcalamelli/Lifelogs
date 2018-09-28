@@ -9,19 +9,20 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.ImageButton;
+//import android.widget.ImageButton;
 
 public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        ImageButton button_go_to_login;
+        //ImageButton button_go_to_login;
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        /*
         button_go_to_login = findViewById(R.id.imageButton_fingerprint);
         button_go_to_login.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -29,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
                 launchActivity();
             }
         });
+        */
 
         FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
